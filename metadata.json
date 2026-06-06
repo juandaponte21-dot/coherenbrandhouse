@@ -1,0 +1,8 @@
+{
+  "name": "Coheren Brand House",
+  "description": "Somos Coheren Brand House, una agencia de Marketing Digital de élite enfocada en el retorno comercial y posicionamiento de marcas audaces en Colombia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
