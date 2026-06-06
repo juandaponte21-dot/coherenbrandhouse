@@ -41,7 +41,7 @@ import {
 } from 'lucide-react';
 import FluidBackground from './FluidBackground';
 import GradientText from './GlitchText';
-import CustomCursor from './customCursor';
+import CustomCursor from './CustomCursor';
 import AIChat from './AIChat';
 import ServiceCard from './ServiceCard';
 import { Service, DynamicAuditRequest } from './types';
