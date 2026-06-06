@@ -45,7 +45,7 @@ import CustomCursor from './CustomCursor';
 import AIChat from './AIChat';
 import ServiceCard from './ServiceCard';
 import { Service, DynamicAuditRequest } from './types';
-import { generateInstantAudit } from './services/geminiService';
+import { generateInstantAudit } from './geminiService';
 
 // Marketing Agency Services
 const SERVICES: Service[] = [
