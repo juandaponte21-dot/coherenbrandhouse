@@ -39,11 +39,11 @@ import {
   Clock,
   Briefcase
 } from 'lucide-react';
-import FluidBackground from './components/FluidBackground';
-import GradientText from './components/GlitchText';
-import CustomCursor from './components/CustomCursor';
-import AIChat from './components/AIChat';
-import ServiceCard from './components/ServiceCard';
+import FluidBackground from './FluidBackground';
+import GradientText from './GlitchText';
+import CustomCursor from './customCursor';
+import AIChat from './AIChat';
+import ServiceCard from './ServiceCard';
 import { Service, DynamicAuditRequest } from './types';
 import { generateInstantAudit } from './services/geminiService';
 
