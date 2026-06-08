@@ -6,7 +6,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Sparkles, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { sendMessageToGemini } from '../geminiService';
+import { sendMessageToGemini } from './geminiService';
 import { ChatMessage } from '../types';
 
 const AIChat: React.FC = () => {
@@ -17,7 +17,7 @@ const AIChat: React.FC = () => {
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Lazy initialize standard welcome message in Spanish representing Eclipse Studio
+    // Lazy initialize standard welcome message in Spanish representing Coheren Brand House
     if (messages.length === 0) {
       setMessages([
         { 
